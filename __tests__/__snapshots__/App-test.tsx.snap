@@ -69,14 +69,6 @@ exports[`App should change on state change of App 1`] = `
             style={
               {
                 "backgroundColor": "#00425A",
-                "borderBottomColor": "#CC3232",
-                "borderBottomWidth": 3.5,
-                "borderLeftColor": "#CC3232",
-                "borderLeftWidth": 3.5,
-                "borderRightColor": "#CC3232",
-                "borderRightWidth": 3.5,
-                "borderTopColor": "#CC3232",
-                "borderTopWidth": 3.5,
                 "flexBasis": 0,
                 "flexGrow": 1,
                 "flexShrink": 1,
@@ -87,14 +79,6 @@ exports[`App should change on state change of App 1`] = `
               style={
                 {
                   "backgroundColor": "#000000",
-                  "borderBottomColor": "#ffffff",
-                  "borderBottomWidth": 1,
-                  "borderLeftColor": "#ffffff",
-                  "borderLeftWidth": 1,
-                  "borderRightColor": "#ffffff",
-                  "borderRightWidth": 1,
-                  "borderTopColor": "#ffffff",
-                  "borderTopWidth": 1,
                   "flexDirection": "row",
                   "justifyContent": "space-between",
                 }
@@ -103,14 +87,6 @@ exports[`App should change on state change of App 1`] = `
               <View
                 style={
                   {
-                    "borderBottomColor": "#c00000",
-                    "borderBottomWidth": 1,
-                    "borderLeftColor": "#c00000",
-                    "borderLeftWidth": 1,
-                    "borderRightColor": "#c00000",
-                    "borderRightWidth": 1,
-                    "borderTopColor": "#c00000",
-                    "borderTopWidth": 1,
                     "flexDirection": "row",
                     "marginBottom": 18.5,
                     "marginLeft": 18.5,
@@ -185,14 +161,6 @@ exports[`App should change on state change of App 1`] = `
                     activeFlashCard="Following"
                     style={
                       {
-                        "borderBottomColor": "#CC3232",
-                        "borderBottomWidth": 4,
-                        "borderLeftColor": "#CC3232",
-                        "borderLeftWidth": 4,
-                        "borderRightColor": "#CC3232",
-                        "borderRightWidth": 4,
-                        "borderTopColor": "#CC3232",
-                        "borderTopWidth": 4,
                         "color": "#ffffff",
                         "fontWeight": "700",
                         "opacity": 1,
@@ -240,14 +208,6 @@ exports[`App should change on state change of App 1`] = `
                     activeFlashCard="Following"
                     style={
                       {
-                        "borderBottomColor": "#CC3232",
-                        "borderBottomWidth": 4,
-                        "borderLeftColor": "#CC3232",
-                        "borderLeftWidth": 4,
-                        "borderRightColor": "#CC3232",
-                        "borderRightWidth": 4,
-                        "borderTopColor": "#CC3232",
-                        "borderTopWidth": 4,
                         "color": "#ffffff",
                         "fontWeight": "300",
                         "marginLeft": 40,
