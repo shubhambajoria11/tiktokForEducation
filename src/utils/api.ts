@@ -26,8 +26,6 @@ export const api = async (
     headers: axiosHeader,
   });
 
-  console.log('axiosUrl', axiosUrl);
-
   let apiCall: Promise<any>;
   switch (axiosMethod) {
     case POST:

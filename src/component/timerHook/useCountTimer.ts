@@ -19,7 +19,6 @@ const useCountTimer = (
   }
 
   const {mins, secs} = getRemaining(timer);
-  console.log('mins', mins, secs);
 
   const reset = () => {
     setTimer(startingTime);

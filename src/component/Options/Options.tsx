@@ -14,7 +14,6 @@ interface IItemProp {
 
 const Options: React.FC<OptionsProps> = ({option}) => {
   const renderItem: React.FC<IItemProp> = ({item}) => {
-    console.log('item-->1', item);
     return (
       <MainContainer>
         <OptionText>{item.answer}</OptionText>

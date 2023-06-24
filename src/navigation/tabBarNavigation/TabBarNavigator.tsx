@@ -11,6 +11,13 @@ import colors from '../../styles/colors';
 import SVGIcon from '../../assets/svg/index';
 import {StatusBar} from 'react-native';
 import Home from '../../screens/Home';
+import {
+  DIGIT_0DOT4,
+  DIGIT_1,
+  DIGIT_18,
+  DIGIT_1DOT5,
+  DIGIT_50,
+} from '../../constants/numbers';
 
 const Tab = createBottomTabNavigator<RootTabParamList>();
 
@@ -47,11 +54,11 @@ const TabBarNavigator: React.FC = () => {
             tabBarIcon: ({focused}) => {
               return (
                 <SVGIcon.home
-                  width={18}
-                  height={18}
-                  strokeWidth={1.5}
+                  width={DIGIT_18}
+                  height={DIGIT_18}
+                  strokeWidth={DIGIT_1DOT5}
                   stroke={focused ? colors.white : colors.transparent}
-                  fillOpacity={focused ? 1 : 0.4}
+                  fillOpacity={focused ? DIGIT_1 : DIGIT_0DOT4}
                 />
               );
             },
@@ -65,12 +72,12 @@ const TabBarNavigator: React.FC = () => {
             tabBarIcon: ({focused}) => {
               return (
                 <SVGIcon.discover
-                  width={18}
-                  height={18}
-                  strokeWidth={1.5}
+                  width={DIGIT_18}
+                  height={DIGIT_18}
+                  strokeWidth={DIGIT_1DOT5}
                   color={colors.white}
                   stroke={focused ? colors.white : colors.transparent}
-                  fillOpacity={focused ? 1 : 0.4}
+                  fillOpacity={focused ? DIGIT_1 : DIGIT_0DOT4}
                 />
               );
             },
@@ -84,12 +91,12 @@ const TabBarNavigator: React.FC = () => {
             tabBarIcon: ({focused}) => {
               return (
                 <SVGIcon.activity
-                  width={18}
-                  height={18}
-                  strokeWidth={1.5}
+                  width={DIGIT_18}
+                  height={DIGIT_18}
+                  strokeWidth={DIGIT_1DOT5}
                   color={colors.white}
                   stroke={focused ? colors.white : colors.transparent}
-                  fillOpacity={focused ? 1 : 0.4}
+                  fillOpacity={focused ? DIGIT_1 : DIGIT_0DOT4}
                 />
               );
             },
@@ -103,12 +110,12 @@ const TabBarNavigator: React.FC = () => {
             tabBarIcon: ({focused}) => {
               return (
                 <SVGIcon.bookmarks
-                  width={50}
-                  height={50}
-                  strokeWidth={1.5}
+                  width={DIGIT_50}
+                  height={DIGIT_50}
+                  strokeWidth={DIGIT_1DOT5}
                   color={colors.white}
                   stroke={focused ? colors.white : colors.transparent}
-                  fillOpacity={focused ? 1 : 0.4}
+                  fillOpacity={focused ? DIGIT_1 : DIGIT_0DOT4}
                 />
               );
             },
@@ -122,12 +129,12 @@ const TabBarNavigator: React.FC = () => {
             tabBarIcon: ({focused}) => {
               return (
                 <SVGIcon.profile
-                  width={18}
-                  height={18}
-                  strokeWidth={1.5}
+                  width={DIGIT_18}
+                  height={DIGIT_18}
+                  strokeWidth={DIGIT_1DOT5}
                   color={colors.white}
                   stroke={focused ? colors.white : colors.transparent}
-                  fillOpacity={focused ? 1 : 0.4}
+                  fillOpacity={focused ? DIGIT_1 : DIGIT_0DOT4}
                 />
               );
             },
